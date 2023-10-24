@@ -6,4 +6,5 @@ class client:
         self.address = address
         self.cell_phone = cell_phone
         self.email = email
-        self.gender = ge
+        self.gender = gender
+        
