@@ -8,3 +8,5 @@ modeloapp/apps/socialnetworks/__pycache__/*
 modeloapp/apps/socialnetworks/migrations/*
 modeloapp/apps/clients/__pycache__/*
 modeloapp/apps/clients/migrations/*
+modeloapp/apps/orders/__pycache__/*
+modeloapp/apps/orders/migrations/*
