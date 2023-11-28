@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class LoteDeVacina(models.Model):
+class LoteDeVacinaConfig(models.Model):
     fabricante = models.CharField('Fabricante', max_length=50)
     data_de_fabricacao = models.DateField('Data de Fabricação')
     quantidade =  models.IntegerField('Quantidade', max_length=100)
