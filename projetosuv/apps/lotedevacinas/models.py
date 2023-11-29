@@ -4,7 +4,7 @@ from django.db import models
 class LoteDeVacina(models.Model):
     fabricante = models.CharField('Fabricante', max_length=50)
     data_de_fabricacao = models.DateField('Data de Fabricação')
-    quantidade =  models.IntegerField('Quantidade', max_length=100)
+    quantidade =  models.IntegerField('Quantidade')
     data_de_validade = models.DateField('Data de Validade')
     
     class Meta:
