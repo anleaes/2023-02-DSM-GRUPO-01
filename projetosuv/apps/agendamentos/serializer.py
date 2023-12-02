@@ -1,4 +1,4 @@
-from .models import Paciente
+from .models import Agendamento
 from rest_framework import serializers
 
 class AgendamentoSerializer(serializers.ModelSerializer):
