@@ -5,7 +5,8 @@ from django.db import models
 class PostoDeSaude(models.Model):
     nome = models.CharField('Nome', max_length=50)
     endereco = models.TextField('Endereço', max_length=100)
-    horario_funcionamento = models.TimeField('Horário de Funcionamento')
+    horario_de_abertura = models.TimeField('Horário de Funcionamento')
+    horario_de_fechamento = models.TimeField('Horário de Funcionamento')
 
     class Meta:
         verbose_name = 'Posto de Saúde'
