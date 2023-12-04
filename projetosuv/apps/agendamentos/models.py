@@ -14,4 +14,4 @@ class Agendamento(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self
+        return f"{self.paciente.nome} {self.postodesaude.nome} {self.datahora}"
