@@ -5,3 +5,13 @@ projetosuv/apps/lotedevacinas/migrations/*
 projetosuv/projetosuv/__pycache__/*
 projetosuv/apps/vacinas/migrations/*
 projetosuv/apps/vacinas/__pycache__/*
+projetosuv/apps/pacientes/migrations/*
+projetosuv/apps/pacientes/__pycache__/*
+projetosuv/apps/atendentes/migrations/*
+projetosuv/apps/atendentes/__pycache__/*
+projetosuv/apps/postodesaude/migrations/*
+projetosuv/apps/postodesaude/__pycache__/*
+projetosuv/apps/historicosdevacinacao/migrations/*
+projetosuv/apps/historicosdevacinacao/__pycache__/*
+projetosuv/apps/agendamentos/migrations/*
+projetosuv/apps/agendamentos/__pycache__/*
