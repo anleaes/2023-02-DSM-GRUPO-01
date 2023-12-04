@@ -20,4 +20,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('lotedevacinas/',include('lotedevacinas.urls',namespace='lotedevacinas')),
     path('vacinas/',include('vacinas.urls',namespace='vacinas')),
+    path('pacientes/',include('pacientes.urls',namespace='pacientes')),
+    path('atendentes/',include('atendentes.urls',namespace='atendentes')),
+    path('agendamentos/',include('agendamentos.urls',namespace='agendamentos')),
+    path('historicosdevacinacao/',include('historicosdevacinacao.urls',namespace='historicosdevacinacao')),
+    path('postodesaude/',include('postodesaude.urls',namespace='postodesaude')),
 ]

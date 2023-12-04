@@ -44,6 +44,11 @@ INSTALLED_APPS = [
     'rest_framework',
     'lotedevacinas.apps.LotedevacinasConfig',
     'vacinas.apps.VacinasConfig',
+    'pacientes.apps.PacientesConfig',
+    'atendentes.apps.AtendentesConfig',
+    'historicosdevacinacao.apps.HistoricosdevacinacaoConfig',
+    'agendamentos.apps.AgendamentosConfig',
+    'postodesaude.apps.PostodesaudeConfig',
 ]
 
 MIDDLEWARE = [

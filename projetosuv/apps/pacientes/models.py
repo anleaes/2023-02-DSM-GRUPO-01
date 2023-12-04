@@ -6,7 +6,7 @@ class Paciente(models.Model):
     nome = models.CharField('Nome', max_length=50)
     data_de_nascimento = models.DateField('Data de Nascimento')
     endereco = models.TextField('Endereço', max_length=200)
-    telefone = models.CharField('Telefone')
+    telefone = models.CharField('Telefone', max_length=50)
 
     class Meta:
         verbose_name = 'Paciente'
