@@ -13,4 +13,4 @@ class LoteDeVacina(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self
+        return f"{self.fabricante} - {self.data_de_validade}"

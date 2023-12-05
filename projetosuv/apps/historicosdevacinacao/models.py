@@ -21,4 +21,4 @@ class HistoricoDeVacinacao(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self
+        return f"{self.paciente.nome} - {self.vacina.nome} - {self.status_de_vacinacao}"
